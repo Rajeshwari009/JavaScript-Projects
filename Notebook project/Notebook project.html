@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Notebook project.css">
+    <title>Document</title>
+</head>
+<body >
+    <div class="Main">
+    <h1>NOTE BOOK</h1>
+    <label for="book">
+        Search Notes:<input type="text" name="book" id="book"><br>
+        <div> Total Notes: <span id="totalNotes">0</span> <br> Showing: <span id="showingNotes">0</span></div>
+
+    </label></div>
+<form onsubmit="handleFormSubmit(event)">
+    <div class="Main2">
+        <label for="title">
+            Note Title:<input type="text" name="title" id="title">
+            <label for="description">
+                Note Description:<input type="text" name="description" id="description">
+                <button type="submit">Add to Book</button>
+    </div>
+</form>
+<ul></ul>
+
+
+</body>
+</html>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.7/axios.min.js"></script>
+<script src="Notebook project.js"></script>
