@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Vote Project.css">
+</head>
+
+<body>
+    <div class="headingPart">
+        <h1>Class Monitor Vote</h1>
+            <div class="totalVotes">Total votes:<span id="totalVotes">0</span></div>
+    </div>
+    
+
+    <div>
+        <form onsubmit="handleformSubmit(event)">
+            <div class="formPart"> <h2>
+            <label for="studentName">
+                Student Name:<input type="text" name="studentName" id="studentName">
+
+                Choose Monitor:<select name="chooseMonitor" id="chooseMonitor">
+                    <option value="Ram" id="ram">Ram</option>
+                    <option value="Vibha" id="vibha">Vibha</option>
+                    <option value="Shreya" id="shreya">Shreya</option>
+                </select>
+                <button type="submit" id="vote-btn" class="vote-btn">VOTE</button></h2>
+            </div>
+                <div class="votingArea">
+                    <div class="candidate01">
+                        <span><h1>Ram</h1>Ram votes:<span id="candidate1">0</span>
+                        <ul id="ram1"></ul>
+                    </div></span>
+                    <div class="candidate02">
+                        <span><h1>Vibha</h1>Vibha votes: <span id="candidate2">0</span>
+                        <ul id="vibha1"></ul>
+                    </div> 
+                    <div class="candidate03">
+                        <span><h1>shreya</h1>Shreya votes: <span id="candidate3">0</span>
+                        <ul id="shreya1"></ul>
+                    </div>
+                    
+                </div>
+            </label>
+
+
+        </form>
+    </div>
+
+
+
+
+</body>
+
+</html>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.7/axios.min.js"></script>
+<script src="Vote project.js"></script>
