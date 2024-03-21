@@ -1,0 +1,60 @@
+/* styles.module.css */
+
+.voteFormContainer {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #fcffea;
+}
+
+.voteForm {
+  background-color: #c8d3de;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 470px; /* Adjust the width as needed */
+}
+
+.voteFormBox {
+  margin-bottom: 15px;
+}
+
+.voteForm label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.voteForm input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.voteForm button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.voteForm button:hover {
+  background-color: #0056b3;
+}
+
+.choose {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
