@@ -1,0 +1,47 @@
+
+.cart-button {
+  position: absolute;
+  top: 10px; /* Adjust the top position as needed */
+  right: 10px; /* Adjust the right position as needed */
+  color: white;
+  background-color: red;
+  border: 2px solid white;
+  padding: 5px 10px; /* Adjust padding as needed */
+  border-radius: 20%; /* Use 50% for a circular shape */
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+  transition: background-color 0.3s, transform 0.3s; /* Add transition effects */
+}
+
+.cart-button:hover {
+  background-color: darkred; /* Darken the background color on hover */
+  transform: scale(1.1); /* Scale the button slightly on hover */
+}
+
+
+
+
+
+
+
+
+
+  /* .cart-button {
+    position: absolute;
+    top: 2px; 
+    right: 2px;
+    color: white;
+    background-color: red;
+    border: 5px solid white;
+    padding: 1px;
+    border-radius: 20%;
+  } */
+
+
+  .headers{
+    border-bottom:10px solid red;
+    background-color: black;
+    color: antiquewhite;
+    padding: 30px;
+  }
+
