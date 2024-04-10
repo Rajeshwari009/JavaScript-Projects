@@ -1,0 +1,93 @@
+.navbar {
+  background-color: #000000; /* Black background */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  padding: 10px 10px;
+  margin-bottom: 30px;
+  
+}
+
+
+.actives{
+  color:#007bff
+}
+
+.navbarContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px; /* Increased padding */
+  max-width: 2000px; /* Increased max-width */
+  margin-left: 2px;
+}
+
+.logo {
+  font-size: 28px; /* Increased font size */
+  color: #ffffff; /* White color for logo */
+}
+
+.menuIcon {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.navMenu {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.navItem {
+  margin-right: 40px; /* Increased margin */
+}
+
+.navLink {
+  text-decoration: none;
+  color: #ffffff; /* White color for links */
+  font-size: 20px; /* Increased font size */
+  display: flex; /* Use flexbox */
+  align-items: center; 
+  transition: color 0.3s ease;
+  
+}
+
+.navLink:hover{
+  color: #007bff; /* Blue color on hover */
+  text-decoration: none; /* Remove underline on hover */
+}
+
+@media screen and (max-width: 992px) {
+  .menuIcon {
+      display: block;
+  }
+  .navIcon {
+    margin-right: 5px; /* Adjust margin between icon and text */
+  }
+  
+  
+  .navMenu {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 70px;
+      left: 0;
+      width: 100%;
+      background-color: #000000; /* Black background */
+      padding: 20px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navMenu.active {
+      display: flex;
+  }
+  
+  .navItem {
+      margin: 15px 0; /* Increased margin */
+  }
+ 
+}
