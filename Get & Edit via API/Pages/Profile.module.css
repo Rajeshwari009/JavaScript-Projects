@@ -1,0 +1,44 @@
+/* Profile.module.css */
+
+.container {
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+    align-items: flex-start; /* Align items to the top of the container */
+  }
+  
+  .form {
+    width: 300px; /* Adjust width as needed */
+    padding: 40px 20px; /* Increase top padding to move the form box up */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form label {
+    display: block;
+    margin-bottom: 10px; /* Add space between each input label */
+  }
+  
+  .form input {
+    width: calc(100% - 20px); /* Adjust input width and consider padding */
+    margin-bottom: 20px; /* Add space between each input */
+  }
+  
+  .updateButton {
+    border: none;
+    padding: 10px;
+    color: white;
+    background-color: #007bff;
+    text-decoration: none;
+    display: block; /* Ensure the button takes up the full width of its container */
+    text-align: center; /* Center text horizontally */
+    margin-top: 20px; /* Add some space between the form and the button */
+  }
+  
+  .updateButton:hover {
+    background-color: #086dd9;
+    border: none;
+    color: white;
+  }
+  

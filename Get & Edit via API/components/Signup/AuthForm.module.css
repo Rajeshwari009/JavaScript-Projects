@@ -1,0 +1,114 @@
+/* AuthForm.module.css */
+
+.auth {
+  width: 100%;
+  max-width: 400px;
+  margin: 2rem auto;
+  padding: 2rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  background-image: url('https://img.freepik.com/free-vector/blue-curved-border-simple-background_53876-115364.jpg?w=996&t=st=1712911003~exp=1712911603~hmac=b3b1936fd190921ec2ad104e05f605c131df9ad9c325e19a8f88ce4f729a1656');
+  background-size: auto;
+  background-position: top ;
+}
+
+  
+  .auth h1 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    text-align: center;
+  }
+  
+  .auth p {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    background-color: #dff0d8;
+    border: 1px solid #d0e9c6;
+    border-radius: 4px;
+    color: #3c763d;
+    text-align: center;
+  }
+  
+  .auth form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .auth .control {
+    margin-bottom: 1rem;
+  }
+  
+  .auth label {
+    font-weight: bold;
+  }
+  
+  .auth input {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .auth .actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+  }
+  
+  .auth button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 6px;
+  }
+  
+  .auth button:hover {
+    background-color: #0056b3;
+  }
+  
+  .auth .toggle {
+    font-size: 0.9rem;
+    color: #007bff;
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .auth .toggle:hover {
+    background-color: #0056b3;
+    color: #ccc;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background-image: url('https://img.freepik.com/free-vector/blue-curved-border-simple-background_53876-115364.jpg?w=996&t=st=1712911003~exp=1712911603~hmac=b3b1936fd190921ec2ad104e05f605c131df9ad9c325e19a8f88ce4f729a1656');
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif; /* Optionally, specify a font-family */
+  }
+  
+ .auth .forget{
+    border: none;
+    color: #007bff;
+    background-color: transparent;
+    text-decoration: underline;
+    
+  }
+  .auth .forget:hover{
+    background-color: transparent;
+    border: none;
+    color: #0056b3;
+
+
+  }

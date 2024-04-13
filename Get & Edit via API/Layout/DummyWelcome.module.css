@@ -1,0 +1,20 @@
+.backImage{
+    padding: 100px;
+    margin: 0;
+    background-image: url('https://img.freepik.com/free-vector/blue-curved-border-simple-background_53876-115364.jpg?w=996&t=st=1712986997~exp=1712987597~hmac=1c30f69eaaf724fd24b40f3b5102e9f383813a17fb6aa5666bd6134518253b67');
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+}
+.button{
+    background-color: rgba(40, 109, 220, 0.964);
+    color: white;
+    padding: 10px;
+    border: none;
+
+}
+
+.button:hover{
+    background-color: green;
+    color: white;
+}
