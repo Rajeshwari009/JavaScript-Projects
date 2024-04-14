@@ -1,0 +1,123 @@
+/* styles.css */
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding-right: 190px;
+}
+
+.content {
+  background-color: #d0baba;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: transparent;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border: 20px solid #d0baba;
+  width: 150%;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+form {
+  margin-top: 20px;
+}
+
+form div {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #666;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url('data:image/svg+xml;utf8,<svg fill="%23333" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/><path fill="none" d="M0 0h24v24H0z"/></svg>');
+  background-position: right 10px top 50%;
+  background-repeat: no-repeat;
+  background-size: 16px;
+
+}
+
+.submit-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+.expenses-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 40px;
+  background-color: #195ce1;
+  color: white;
+  padding: 40px;
+  margin: 40px;
+  border: 6px solid white;
+  
+}
+  
+
+.expenses-list li {
+  margin-bottom: 15px;
+  
+}
+
+.expenses-list li button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.expenses-list li button:hover {
+  background-color: #c82333;
+}
+
+.completeButton {
+  background-color: rgb(26, 130, 221);
+  padding: 10px;
+  color: white;
+  border: none;
+}
+
+.verifyButton {
+  background-color: #c82333;
+  margin: 5px;
+  padding: 10px;
+  color: white;
+  background-color: rgb(26, 130, 221);
+  border: none;
+}
+
+.verifyButton:hover,
+.completeButton:hover {
+  background-color: green;
+}
