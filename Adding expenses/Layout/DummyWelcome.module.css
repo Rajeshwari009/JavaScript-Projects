@@ -1,0 +1,78 @@
+/* DummyWelcome.module.css */
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding-left: 100px;
+  border: 10px solid #2b598a;
+  
+  
+}
+
+.content {
+  text-align: center;
+  
+
+}
+
+.formContainer {
+  width: 100%;
+  padding: 20px;
+  background-color: transparent;
+  border: 10px solid #ccc;
+  border-radius: 8px;
+  margin-top: 50px;
+  box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.1);
+}
+
+.formContainer h2 {
+  margin-bottom: 20px;
+  text-align: center;
+
+
+ 
+  
+}
+
+.formContainer input,
+.formContainer select {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.submitButton {
+  width: 100%;
+  padding: 12px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submitButton:hover {
+  background-color: #0056b3;
+}
+
+.completeButton,
+.verifyButton {
+  background-color: #28a745;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.completeButton:hover,
+.verifyButton:hover {
+  background-color: #218838;
+}

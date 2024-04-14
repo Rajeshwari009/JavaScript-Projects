@@ -1,0 +1,37 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0b3664; /* Add desired background color */
+    padding: 1rem;
+    color: white; /* Set text color */
+  }
+  
+  .navbarNav {
+    list-style: none; /* Remove bullet points */
+    display: flex;
+    gap: 1rem; /* Add space between navbar items */
+  }
+  
+  .navItem {
+    margin-right: 1rem; /* Add margin between navbar items */
+  }
+  
+  .navLink {
+    text-decoration: none; /* Remove underline from links */
+    color: inherit; /* Inherit text color */
+    font-size: 1rem; /* Set font size */
+    font-weight: bold; /* Set font weight */
+  }
+  
+  .navLink:hover {
+    color: aqua; /* Change link color on hover */
+  }
+  
+  .navbarBrand {
+    text-decoration: none; /* Remove underline from brand */
+    color: white; /* Set brand text color */
+    font-size: 1.5rem; /* Increase font size for brand */
+    font-weight: bold; /* Set font weight for brand */
+  }
+  
