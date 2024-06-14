@@ -1,0 +1,50 @@
+/* Sidebar.css */
+
+.sidebar {
+    width: 200px; /* Set the width of the sidebar */
+    background-color: #9B3922;
+    font-size: 0;
+    display: flex;
+    flex-direction: column; /* Change direction to vertical */
+    align-items: flex-start; /* Align items to the start */
+    padding: 20px 0;
+    position: fixed; /* Fix the position */
+    top: 0; /* Position from the top */
+    left: 0; /* Position from the left */
+    height: 100%; /* Take the full height of the page */
+}
+
+.sidebar-title {
+    font-size: 1.5rem;
+    color: white;
+    margin: 0 0 20px; /* Add bottom margin for spacing */
+}
+
+.sidebar-nav {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column; /* Change direction to vertical */
+    width: 100%; /* Set the width to 100% */
+}
+
+.sidebar-link {
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    cursor: pointer;
+    padding: 10px 20px; /* Adjust padding */
+    transition: background-color 0.3s;
+    font-weight: bold; /* Make text bold */
+}
+
+.sidebar-link:hover {
+    background-color: transparent;
+}
+
+/* Add spacing between navigation items */
+.sidebar-nav li:not(:last-child) {
+    margin-bottom: 10px;
+}
