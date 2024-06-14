@@ -1,0 +1,74 @@
+.bodyy {
+  position: relative;
+}
+
+.video-container {
+  position: relative;
+  height: 100vh;
+}
+
+.bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.contact-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 70px;
+  width: 120%;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: transparent;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.contact-label {
+  width: 100%;
+  text-align: left;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  color: white; /* Text color */
+}
+
+.contact-input {
+  width: calc(100% - 24px);
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  margin-bottom: 15px; /* Decreased margin */
+}
+
+.contact-button {
+  margin-top: 10px; /* Decreased margin */
+  padding: 12px 24px;
+  background-color: #161617; /* Button background color */
+  color: #fff; /* Button text color */
+  border: none;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.contact-button:hover {
+  background-color: #000000; /* Darker shade on hover */
+}
+
+/* Add more styles as needed */

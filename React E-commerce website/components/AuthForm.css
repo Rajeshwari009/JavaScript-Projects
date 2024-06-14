@@ -1,0 +1,111 @@
+.auth {
+  width: 100%;
+  max-width: 600px; /* Increased max-width */
+  margin: 2rem auto;
+  padding: 3rem; /* Increased padding */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(50, 8, 8, 0.1);
+  margin-top: 80px; /* Adjusted margin-top */
+  
+}
+
+.auth h1 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  text-align: center;
+  color: white;
+}
+
+.auth p {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  background-color: #dff0d8;
+  border: 1px solid #d0e9c6;
+  border-radius: 4px;
+  color: #3c763d;
+  text-align: center;
+}
+
+.auth form {
+  display: flex;
+  flex-direction: column;
+
+
+}
+
+.auth .control {
+  margin-bottom: 1rem;
+  
+}
+
+.auth label {
+  font-weight: bold;
+  color: white;
+}
+
+.auth input {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.auth .actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.auth button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 6px;
+}
+
+.auth button:hover {
+  background-color: #0056b3;
+}
+
+.auth .toggle {
+  font-size: 0.9rem;
+  color: white;
+  background: black;
+  border: none;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.auth .toggle:hover {
+  background-color: black;
+  color: #ccc;
+}
+
+.auth .forget {
+  border: none;
+  color: #007bff;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.auth .forget:hover {
+  background-color: transparent;
+  border: none;
+  color: #0056b3;
+}
+
+.body1 {
+  background-image: url('https://png.pngtree.com/thumb_back/fw800/background/20230721/pngtree-dark-and-luxurious-living-room-modern-interior-design-with-empty-wall-image_3868717.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+}

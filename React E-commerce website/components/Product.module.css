@@ -1,0 +1,86 @@
+.productContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  margin-top: 90px;
+}
+
+.productItem {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.productImage {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.productInfo {
+  padding: 20px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Align elements from top to bottom */
+}
+
+.productTitle {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.productDescription {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.productPrice {
+  font-size: 16px;
+  font-weight: bold;
+  align-self: flex-start; /* Align the price to the left */
+}
+
+.productControls {
+  display: flex;
+  align-items: center;
+}
+
+.quantityInput {
+  width: 60px;
+  height: 30px;
+  margin-right: 10px;
+  padding: 0 10px;
+}
+
+.addButton {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.addButton:hover {
+  background-color: #0056b3;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+.link:hover,
+.link:focus {
+  color: blue;
+  text-decoration: none;
+}
