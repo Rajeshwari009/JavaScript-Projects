@@ -1,0 +1,130 @@
+/* styles.css */
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding-right: 190px;
+  
+}
+
+.content {
+  background-color: #d0baba;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: transparent;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border: 20px solid #d0baba;
+  width: 150%;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+form {
+  margin-top: 20px;
+}
+
+form div {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #666;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+
+}
+
+.submit-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+.expenses-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 40px;
+  color: rgb(4, 4, 4);
+  padding: 40px;
+  margin: 40px;
+  font-weight: bolder;
+  font-style: italic;
+  letter-spacing: 2px;
+
+}
+
+.expenses-list li {
+  margin-bottom: 15px;
+}
+
+.expenses-list li button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.expenses-list li button:hover {
+  background-color: #c82333;
+}
+
+.completeButton {
+  background-color: rgb(12, 121, 85);
+  padding: 10px;
+  color: white;
+  border: none;
+}
+
+.verifyButton {
+  margin: 5px;
+  padding: 10px;
+  color: white;
+  background-color: rgb(12, 121, 85);
+  border: none;
+}
+
+.verifyButton:hover,
+.completeButton:hover {
+  background-color: rgb(1, 61, 1);
+}
+
+.body2{
+  margin-top: 0;
+  padding: 0;
+  border-top: 1px solid transparent; /* Add a transparent border */
+  background-image: url('https://t3.ftcdn.net/jpg/01/19/67/02/360_F_119670247_HDccziQUuo2kFpaNiM22dIto5I8GPAWW.jpg');
+  background-size: cover;
+  background-position: fixed;
+  font-family: Arial, sans-serif;
+  height: 150vh;
+}
+
